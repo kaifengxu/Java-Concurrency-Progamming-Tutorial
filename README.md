@@ -3,43 +3,118 @@
 
 
 # 1 多线程并发与线程安全，让程序更可靠
+
 ## 大量代码实例来讲解，深度掌握高并发编程
 
-![](https://upload-images.jianshu.io/upload_images/4685968-6fc1465c0b063ef8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://uploadfiles.nowcoder.com/files/20190815/5088755_1565799768157_4685968-6fc1465c0b063ef8.png)
 
 # 2 高并发处理思路与手段，让跳槽面试从容不迫
 
-## 并发与高并发是面试的重要考察点，常问面试问题与答案都在这里了
+## 2.1 接轨企业需求的并发技能
 
-![](https://upload-images.jianshu.io/upload_images/4685968-7fd306f9bc9b4bec.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+从真实应用场景出发,从0解构线程与并发
 
-# 3 环境参数
+## 2.2 并发面试综合案例
+
+并发面试必问考点,理清思路总结要点
+
+## 2.3 设计巧妙易于理解
+
+巧妙实例便于理解
+
+![](https://uploadfiles.nowcoder.com/files/20190815/5088755_1565799768174_4685968-7fd306f9bc9b4bec.png)
+
+## 2.4 深入理解底层原理 解决企业级并发业务问题 翻越并发技术的大山
+
+### 线程的核心
+
+#### 工作/面试的利器
+
+- 线程N种实现方式
+网络众口不一，真伪难辨，本教程直击本质
+
+- 线程启动你真的会么？
+启动线程，从错误到正确，带你从错误中总结真理
+
+- 线程停止、中断的最佳实践
+把我线程停止原则
+
+- 图解线程生命周期
+面试 show 出此图，优秀候选人非你莫属
+
+- 趣解Thread和Object类中线程相关方法
+wait、notify、join、yield…各有千秋
+
+- 一网打尽线程属性线程属性
+三大经典面试问题，你晓得么？
+
+- 线程异常处理
+无处不在的异常，只需一招自定义异常
+
+- 线程安全与程序性能，取舍之道
+线程安全导致性能降低，看似无解，实则只是学艺不精
+
+# 3 精讲Java面试中的高频并发问题
+为什么wait必须在同步代码块中使用？
+
+线程是如何在6种状态之间切换的？
+
+哪些场景需要额外注意线程安全问题？
+
+讲一讲什么是Java内存模型？
+
+happens-before、volatile和可见性的关系?
+
+实际开发中如何避免死锁？
+
+# 4 领悟Java大佬的学习方法与体系思想
+如何从宏观和微观两个方面来提高技术？
+
+提高技术的途径有哪些？
+
+如何了解技术领域的前沿动态？
+
+工作中业务缠身，如何在业务开发中得到更多成长?
+
+如何分析native的c/cpp代码，如何使用openJDK？
+
+“自顶向下”的学习方法以及好处？
+
+# 5 环境参数
 
 ## 基本工具 
 
-- Maven 3.3.9
+- Maven 3.3.9+
 
-- JDK 8
+- JDK 8+
 
-- Tomcat
+- Tomcat 8+
 
-- MySQL 8.0.16
+- MySQL 8.0.16+
 
-- Redis 
+- Redis 5+
 
 ## IDE
-Intellij IDEA 2019.2
+Intellij IDEA 2019.2+
 
 ## 测试工具 
-Postman、JMeter
+Postman
+
+JMeter
 
 ## 框架 
-SpringBoot、Mybatis 
+SpringBoot
+
+Mybatis 
 
 ## 组件 
-Kafka、RabbitMQ、elastic-job...
+Kafka
 
-# 4 知识点概要
+RabbitMQ
+
+elastic-job...
+
+# 6 知识点概要
 
 ## 线程安全性
 线程安全性，主要从原子性、可见性、有序性三个方面
@@ -115,4 +190,14 @@ J.U.C里最后一部分：线程池。面试大概率会问到线程池相关的
 ## 知识体系总结
 对知识进行总结回顾,希望大家都能有所收获，并期待与大家共同探讨并发与高并发的话题
 
-![](https://upload-images.jianshu.io/upload_images/4685968-76a236d781f7dee7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![](https://uploadfiles.nowcoder.com/files/20190815/5088755_1565799768221_4685968-76a236d781f7dee7.png)
+
+# 参考
+- [Java并发编程实战](https://book.douban.com/subject/10484692/)
+
+- [Java并发编程入门与高并发面试](https://coding.imooc.com/class/195.html)
+
+- [Java并发编程的艺术](https://book.douban.com/subject/26591326/)
+
+- [深入理解Java虚拟机第二版](https://book.douban.com/subject/24722612/)
