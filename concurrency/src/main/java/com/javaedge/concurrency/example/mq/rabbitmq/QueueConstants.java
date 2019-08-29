@@ -1,7 +1,7 @@
 package com.javaedge.concurrency.example.mq.rabbitmq;
 
 /**
- * @author sss
+ * @author JavaEdge
  * @date 2019-02-20
  */
 public interface QueueConstants {

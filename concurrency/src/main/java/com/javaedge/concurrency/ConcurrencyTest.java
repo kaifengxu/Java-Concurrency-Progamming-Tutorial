@@ -9,7 +9,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Semaphore;
 
 /**
- * @author sss
+ * @author JavaEdge
  */
 @Slf4j
 @NotThreadSafe

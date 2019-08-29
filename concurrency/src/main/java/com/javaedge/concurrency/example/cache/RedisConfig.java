@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 import redis.clients.jedis.JedisPool;
 
 /**
- * @author sss
+ * @author JavaEdge
  */
 @Configuration
 public class RedisConfig {

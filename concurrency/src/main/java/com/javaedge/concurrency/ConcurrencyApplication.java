@@ -8,7 +8,7 @@ import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
 /**
- * @author sss
+ * @author JavaEdge
  */
 @SpringBootApplication
 public class ConcurrencyApplication extends WebMvcConfigurerAdapter{

@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 import javax.annotation.Resource;
 
 /**
- * @author sss
+ * @author JavaEdge
  * @date 2019-02-20
  */
 @Slf4j
