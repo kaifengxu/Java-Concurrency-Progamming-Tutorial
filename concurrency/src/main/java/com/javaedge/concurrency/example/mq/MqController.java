@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import javax.annotation.Resource;
 
 /**
- * @author sss
+ * @author JavaEdge
  * @date 2019-02-20
  */
 @Controller

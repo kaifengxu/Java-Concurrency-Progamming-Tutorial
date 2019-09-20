@@ -7,7 +7,7 @@ import redis.clients.jedis.JedisPool;
 import javax.annotation.Resource;
 
 /**
- * @author sss
+ * @author JavaEdge
  */
 @Component
 public class RedisClient {
